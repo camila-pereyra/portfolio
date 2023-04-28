@@ -1,20 +1,19 @@
-import React from 'react';
-import { useEffect } from 'react';
-import "./TextAnimated.css"
-import Typed from 'typed.js';
+import React from "react";
+import { useEffect } from "react";
+import "./TextAnimated.css";
+import Typed from "typed.js";
 
 const TextAnimated = () => {
-    const el = React.useRef(null);
+  const el = React.useRef(null);
 
-    useEffect(() => {
+  useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['Frontend Developer'],
+      strings: ["Frontend Developer"],
       typeSpeed: 120,
       backSpeed: 100,
       backDelay: 500,
       loop: true,
-      showCursor: true
-
+      showCursor: true,
     });
 
     return () => {
@@ -22,9 +21,7 @@ const TextAnimated = () => {
     };
   }, []);
 
-  return (
-    <span className='textAnimated' ref={el} />
-  )
-}
+  return <span className="textAnimated" ref={el} />;
+};
 
-export default TextAnimated
+export default TextAnimated;

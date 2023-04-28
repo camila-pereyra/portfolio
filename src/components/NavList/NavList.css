@@ -1,0 +1,55 @@
+.navHamburger {
+  width: 320px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  font-family: "Sigmar", cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateX(0);
+  transition: all 0.5s ease-in-out;
+  border-right: solid 1px white;
+  border-bottom: solid 1px white;
+}
+.navHamburgerClose {
+  transform: translateX(-100%);
+  transition: all 0.5s ease-in-out;
+}
+.navList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  text-align: left;
+  gap: 10px;
+  padding: 0 15px;
+}
+.navList li {
+  width: 100%;
+  font-size: 25px;
+  border-bottom: solid 1px white;
+}
+#lastLiNav {
+  border-bottom: none;
+}
+.navList li a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+.navList li a:hover {
+  background-image: linear-gradient(
+    to left,
+    rgb(231, 140, 231),
+    rgb(183, 100, 243),
+    rgb(87, 236, 236),
+    rgb(120, 228, 120),
+    rgb(233, 248, 98),
+    rgb(250, 189, 75),
+    rgb(243, 61, 61)
+  );
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

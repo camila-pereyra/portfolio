@@ -1,16 +1,18 @@
 import "./App.css";
 import ContanerAboutMe from "./components/ContainerAboutMe/ContanerAboutMe";
+import ContainerSkills from "./components/ContainerSkills/ContainerSkills";
 import Hero from "./components/Hero/Hero";
-import NavBar from "./components/NavBar/NavBar";
+import Header from "./components/Header/Header";
 import ParticlesBackground from "./components/ParticlesBackground";
 
 function App() {
   return (
     <div className="App">
       <ParticlesBackground />
-      <NavBar />
+      <Header />
       <Hero />
       <ContanerAboutMe />
+      <ContainerSkills />
     </div>
   );
 }

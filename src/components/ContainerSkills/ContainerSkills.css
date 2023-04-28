@@ -1,18 +1,15 @@
-.containerAboutMe {
+#skills {
   width: 100%;
-  padding: 0 20px;
+  padding: 0 15px;
   text-align: center;
   margin-bottom: 40px;
 }
-.aboutMe {
-  width: 100%;
-}
-.aboutMeTittle {
+.skillsTittle {
   font-size: 40px;
   font-family: "Sigmar", cursive;
   position: relative;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   background-image: linear-gradient(
     to left,
     rgb(231, 140, 231),
@@ -28,7 +25,7 @@
   background-clip: text;
   color: transparent;
 }
-.aboutMeTittle::before {
+.skillsTittle::before {
   position: absolute;
   content: "";
   width: 100%;
@@ -46,8 +43,15 @@
     rgb(243, 61, 61)
   );
 }
-.aboutMeParagraph {
-  font-size: 30px;
-  font-family: "Handlee", cursive;
-  text-align: justify;
+.skill {
+  margin: 10px 0;
+}
+.glider-dot {
+  width: 15px !important;
+  height: 15px !important;
+  background: #838383 !important;
+  margin: 10px !important;
+}
+.glider-dot.active {
+  background-color: rgb(255, 255, 255) !important;
 }
