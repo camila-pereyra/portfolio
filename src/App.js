@@ -4,6 +4,7 @@ import ContainerSkills from "./components/ContainerSkills/ContainerSkills";
 import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
 import ParticlesBackground from "./components/ParticlesBackground";
+import ContainerProjects from "./components/ContainerProjects/ContainerProjects";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <ContanerAboutMe />
       <ContainerSkills />
+      <ContainerProjects />
     </div>
   );
 }

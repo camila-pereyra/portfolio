@@ -1,4 +1,5 @@
 import "./ContainerSkills.css";
+import "../../App.css";
 import image1 from "../../image/html.png";
 import image2 from "../../image/css.png";
 import image3 from "../../image/javascript.png";
@@ -11,8 +12,8 @@ import Glider from "react-glider";
 import "glider-js/glider.min.css";
 const ContainerSkills = () => {
   return (
-    <section id="skills">
-      <h2 className="skillsTittle">Skills</h2>
+    <section id="skills" className="section">
+      <h2 className="tittleSection">Skills</h2>
       <Glider
         draggable={true}
         hasArrows={false}
