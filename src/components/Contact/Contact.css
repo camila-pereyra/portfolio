@@ -1,0 +1,23 @@
+.rowContact {
+  padding: 10px 5px;
+  margin: 0 10px 25px 10px;
+  box-shadow: 0 0 5px white;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+}
+.rowContact svg {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 5px;
+  stroke-width: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+}
+.rowContact:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 0 0 10px white;
+  transition: all 0.3s ease-in-out;
+}

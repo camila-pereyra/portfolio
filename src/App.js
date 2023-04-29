@@ -5,6 +5,7 @@ import Hero from "./components/Hero/Hero";
 import Header from "./components/Header/Header";
 import ParticlesBackground from "./components/ParticlesBackground";
 import ContainerProjects from "./components/ContainerProjects/ContainerProjects";
+import { Contact } from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ContanerAboutMe />
       <ContainerSkills />
       <ContainerProjects />
+      <Contact />
     </div>
   );
 }
