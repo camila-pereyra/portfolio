@@ -1,6 +1,6 @@
 import "./Project.css";
 
-const Project = ({ tittle, skills, demo, repo, deploy }) => {
+const Project = ({ tittle, skills, demo, repo, deploy, description }) => {
   return (
     <div className="project">
       <h4 className="tittleProject">{tittle}</h4>
@@ -12,10 +12,7 @@ const Project = ({ tittle, skills, demo, repo, deploy }) => {
       <div className="projectImage">
         <img src={demo} alt="" />
       </div>
-      <p className="projectInfo">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga in
-        corrupti magni velit officia nam.
-      </p>
+      <p className="projectInfo">{description}</p>
       <a href={repo} className="linkProject">
         Repositorio
       </a>
