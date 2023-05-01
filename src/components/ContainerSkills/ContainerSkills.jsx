@@ -20,6 +20,31 @@ const ContainerSkills = () => {
         hasDots={true}
         slidesToShow={2}
         slidesToScroll={2}
+        responsive={[
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 3,
+            },
+          },
+          {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 4,
+            },
+          },
+          {
+            breakpoint: 1500,
+            settings: {
+              slidesToShow: 8,
+              slidesToScroll: 0,
+              hasArrows: false,
+              hasDots: false,
+            },
+          },
+        ]}
       >
         <div className="skill">
           <img src={image1} alt="" />

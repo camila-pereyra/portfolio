@@ -17,7 +17,15 @@ a {
   font-size: 17px;
 }
 .rowContact:hover {
-  transform: scale(1.05, 1.05);
+  transform: scale(1.03, 1.03);
   box-shadow: 0 0 10px white;
   transition: all 0.3s ease-in-out;
+}
+@media (min-width: 992px) {
+  .rowContact {
+    margin: 0 20px 40px 20px;
+  }
+  a {
+    font-size: 22px;
+  }
 }

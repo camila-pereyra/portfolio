@@ -5,3 +5,8 @@
   align-items: center;
   flex-wrap: wrap;
 }
+@media (min-width: 1097px) {
+  .containerProjects {
+    justify-content: space-around;
+  }
+}

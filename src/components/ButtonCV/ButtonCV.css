@@ -50,3 +50,21 @@
   height: 1.5em;
   stroke-width: 1;
 }
+.buttonCV:active .buttonIcon {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+.buttonCV:active .textButton {
+  transform: translateY(0%);
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 992px) {
+  .buttonCV {
+    width: 300px;
+    font-size: 25px;
+  }
+  .buttonIcon svg {
+    width: 1.8em;
+    height: 1.8em;
+  }
+}

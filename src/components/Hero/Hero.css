@@ -30,3 +30,8 @@
   text-align: center;
   padding: 5px;
 }
+@media (min-width: 992px) {
+  .name {
+    font-size: 80px;
+  }
+}

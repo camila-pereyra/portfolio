@@ -1,5 +1,11 @@
 .aboutMeParagraph {
   font-size: 30px;
   font-family: "Handlee", cursive;
-  text-align: justify;
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .aboutMeParagraph {
+    font-size: 35px;
+    text-align: justify;
+  }
 }
