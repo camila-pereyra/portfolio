@@ -8,28 +8,37 @@ const NavList = ({ clicked, setClicked }) => {
 
   return (
     <nav className={classNav}>
-      <ul className="navList">
-        <li>
-          <a href="#aboutMe" onClick={() => setClicked(false)}>
-            Sobre mi
-          </a>
-        </li>
-        <li>
-          <a href="#skills" onClick={() => setClicked(false)}>
-            Skills
-          </a>
-        </li>
-        <li>
-          <a href="#projects" onClick={() => setClicked(false)}>
-            Proyectos
-          </a>
-        </li>
-        <li id="lastLiNav">
-          <a href="#contact" onClick={() => setClicked(false)}>
-            Contacto
-          </a>
-        </li>
-      </ul>
+      <div className="navList">
+        <a
+          href="#aboutMe"
+          className="navOption"
+          onClick={() => setClicked(false)}
+        >
+          Sobre mi
+        </a>
+        <a
+          href="#skills"
+          className="navOption"
+          onClick={() => setClicked(false)}
+        >
+          Skills
+        </a>
+        <a
+          href="#projects"
+          className="navOption"
+          onClick={() => setClicked(false)}
+        >
+          Proyectos
+        </a>
+        <a
+          href="#contact"
+          className="navOption"
+          id="lastLiNav"
+          onClick={() => setClicked(false)}
+        >
+          Contacto
+        </a>
+      </div>
     </nav>
   );
 };
