@@ -16,6 +16,8 @@ import sass from "../../image/sass.png";
 import firebase from "../../image/firebase.png";
 import bootstrap from "../../image/bs.png";
 import salesforce from "../../image/salesforce.png";
+import localStorage from "../../image/localStorage.png";
+import responsive from "../../image/responsive.png";
 import Project from "../Project/Project";
 const ContainerProjects = () => {
   return (
@@ -24,7 +26,7 @@ const ContainerProjects = () => {
       <div className="containerProjects">
         <Project
           tittle="Food Veggie"
-          skills={[html, css, js, react, firebase]}
+          skills={[html, css, js, react, firebase, responsive]}
           demo={foodVeggie}
           repo="https://github.com/camila-pereyra/food-veggie-pereyra-react"
           deploy="https://food-veggie-pereyra-react.vercel.app/"
@@ -32,7 +34,7 @@ const ContainerProjects = () => {
         />
         <Project
           tittle="Calculator"
-          skills={[html, css, js, react]}
+          skills={[html, css, js, react, responsive]}
           demo={calculator}
           repo="https://github.com/camila-pereyra/calculator"
           deploy="https://calculator-pearl-beta.vercel.app/"
@@ -40,7 +42,7 @@ const ContainerProjects = () => {
         />
         <Project
           tittle="Faqam"
-          skills={[html, css, js, bootstrap]}
+          skills={[html, css, js, , bootstrap, localStorage, responsive]}
           demo={faqam}
           repo="https://github.com/camila-pereyra/faqam-vw-concesionaria"
           deploy="https://camila-pereyra.github.io/faqam-vw-concesionaria/"
@@ -48,7 +50,7 @@ const ContainerProjects = () => {
         />
         <Project
           tittle="TA-TE-TI"
-          skills={[html, css, js, react]}
+          skills={[html, css, js, react, responsive]}
           demo={tateti}
           repo="https://github.com/camila-pereyra/ta-te-ti"
           deploy="https://ta-te-ti-seven.vercel.app/"
@@ -56,7 +58,7 @@ const ContainerProjects = () => {
         />
         <Project
           tittle="Dale Mas Afro"
-          skills={[html, css, js, sass, salesforce]}
+          skills={[html, css, js, sass, salesforce, responsive]}
           demo={dalemasafro}
           repo="https://github.com/camila-pereyra/proyecto-DaleMasAfro"
           deploy="https://evento.dalemasafro.org/"
@@ -64,7 +66,7 @@ const ContainerProjects = () => {
         />
         <Project
           tittle="Weather App"
-          skills={[html, css, js, react]}
+          skills={[html, css, js, react, responsive]}
           demo={weather}
           repo="https://github.com/camila-pereyra/weather-app"
           deploy="https://weather-app-alpha-pied-46.vercel.app/"
@@ -72,7 +74,7 @@ const ContainerProjects = () => {
         />
         <Project
           tittle="Todo"
-          skills={[html, css, js, react]}
+          skills={[html, css, js, react, responsive]}
           demo={task}
           repo="https://github.com/camila-pereyra/todo"
           deploy="https://todo-alpha-vert.vercel.app/"
@@ -80,7 +82,7 @@ const ContainerProjects = () => {
         />
         <Project
           tittle="M&C"
-          skills={[html, css, sass]}
+          skills={[html, css, sass, responsive]}
           demo={myc}
           repo="https://github.com/camila-pereyra/petshop-MyC"
           deploy="https://camila-pereyra.github.io/petshop-MyC/"

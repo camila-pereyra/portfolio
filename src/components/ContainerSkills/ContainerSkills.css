@@ -10,8 +10,3 @@
 .glider-dot.active {
   background-color: rgb(255, 255, 255) !important;
 }
-@media (min-width: 1500px) {
-  .glider-dot {
-    display: none !important;
-  }
-}

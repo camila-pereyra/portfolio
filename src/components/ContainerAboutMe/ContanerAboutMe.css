@@ -2,10 +2,12 @@
   font-size: 20px;
   font-family: "Handlee", cursive;
   text-align: center;
+  padding-bottom: 15px;
 }
 @media (min-width: 992px) {
   .aboutMeParagraph {
     font-size: 35px;
     text-align: justify;
+    padding-bottom: 20px;
   }
 }
