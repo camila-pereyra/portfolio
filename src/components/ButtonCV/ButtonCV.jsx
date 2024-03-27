@@ -4,8 +4,8 @@ const ButtonCV = () => {
   return (
     <a
       className="buttonCV"
-      href="../cv.pdf"
-      download
+      href="../CV_CamilaPereyra_frontendDeveloper.pdf"
+      download="CV_CAMILA_PEREYRA_FRONTEND_DEVELOPER"
       title="CV_CAMILA_PEREYRA_FRONTEND_DEVELOPER"
     >
       <p className="textButton">Descargar CV</p>

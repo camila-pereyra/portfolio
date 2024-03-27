@@ -20,13 +20,20 @@ const ContainerSkills = () => {
       <h2 className="tittleSection">Skills</h2>
       <Glider
         draggable={true}
-        hasArrows={false}
-        hasDots={true}
-        slidesToShow={2}
-        slidesToScroll={2}
+        slidesToShow={1}
+        slidesToScroll={1}
+        scrollLock
+        hasDots
         responsive={[
           {
-            breakpoint: 768,
+            breakpoint: 380,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2,
+            },
+          },
+          {
+            breakpoint: 550,
             settings: {
               slidesToShow: 3,
               slidesToScroll: 3,
@@ -42,8 +49,8 @@ const ContainerSkills = () => {
           {
             breakpoint: 1500,
             settings: {
-              slidesToShow: 6,
-              slidesToScroll: 5,
+              slidesToShow: 5,
+              slidesToScroll: 4,
             },
           },
         ]}

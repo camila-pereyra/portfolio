@@ -16,12 +16,6 @@ export const Contact = () => {
           <h4>github.com/camila-pereyra</h4>
         </div>
       </a>
-      <a href="mailto:campereyra23051995@gmail.com">
-        <div className="rowContact">
-          <AiOutlineMail />
-          <h4>campereyra23051995@gmail.com</h4>
-        </div>
-      </a>
       <a href="mailto:camilabpereyra2305@gmail.com">
         <div className="rowContact">
           <AiOutlineMail />
