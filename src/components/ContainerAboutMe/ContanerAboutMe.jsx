@@ -5,13 +5,13 @@ const ContanerAboutMe = () => {
     <section id="aboutMe" className="section">
       <h2 className="tittleSection">Sobre mi</h2>
       <p className="aboutMeParagraph">
-        Actualmente me defino como una apasionada por la tecnología. Este mundo
-        lo descrubí en el 2020 cuando nos encontrabamos frente a la gran
-        incertidumbre que fue la pandemia... La virtualidad que vino de su mano
-        y mi espíritu curioso hicieron que me avalance y quiera explorar nuevos
-        horizontes. Comencé a cursar entonces la carrera Licenciatura en
-        Sistemas en la UNLa. Al comenzar la universidad reafirme que este mundo
-        era para mí, que quería dedicarme a esto.
+        Me defino como una apasionada por la tecnología. Este mundo lo descrubí
+        en el 2020 cuando nos encontrabamos frente a la gran incertidumbre que
+        fue la pandemia... La virtualidad que vino aparejada de su mano y mi
+        espíritu curioso me provocaron que quiera explorar nuevos horizontes.
+        Comencé a cursar entonces la carrera Licenciatura en Sistemas en la
+        UNLa. Al comenzar la universidad reafirme que este mundo era para mí,
+        que quería dedicarme a esto.
       </p>
       <p className="aboutMeParagraph">
         Durante el año 2022, emprendí el desafío de realizar varios cursos,
